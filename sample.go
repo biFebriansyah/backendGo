@@ -64,3 +64,5 @@ func bodyhandler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println(fod)
 }
+
+// FE -> /auth -> checkUser -> passwordFromDb -> createToken <-

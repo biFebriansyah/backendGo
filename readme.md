@@ -24,13 +24,13 @@ git clone https://github.com/biFebriansyah/backendGo.git
 ```bash
 go get -u ./...
 # or
-go mod tidy
+make install
 ```
 
 3. Run the app
 
 ```bash
-go run *.go
+go run *.go serve
 ```
 
 🌟 You are all set!
